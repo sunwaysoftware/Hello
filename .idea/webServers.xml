@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="91b2f4e9-9fc1-41fe-bb6c-194da6970ff5" name="Debian nginx" url="http://192.168.0.10">
+        <fileTransfer host="192.168.0.10" port="22" rootFolder="/var/www/html/Hello" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="3deabddb-322c-4ab6-a3fa-e704cc4fb4a2" name="Utuntu Apache" url="http://192.168.0.20">
+        <fileTransfer host="192.168.0.20" port="22" rootFolder="/var/www/html/Hello" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
